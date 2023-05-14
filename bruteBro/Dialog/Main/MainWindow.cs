@@ -72,7 +72,7 @@ namespace bruteBro
                 List<IPAddress> ips = NetworkObjectManager.GetNICAddresses(ObjectManager.NetworkAdapter[i], AddressFamily.InterNetwork);
                 for (int n = 0; n < ips.Count; n++)
                 {
-                    ipStr += " "+ips[n].e+"";
+                    ipStr += " " + ips[n].ToString() + "";
                 }
                 string fullStr = ""+ ObjectManager.NetworkAdapter[i].Name+": "+ipStr+""; 
                 nicCBOX.Items.Add(fullStr);
