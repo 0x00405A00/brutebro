@@ -39,7 +39,6 @@
             this.nicLAB = new System.Windows.Forms.Label();
             this.passwordLenghtTBAR = new System.Windows.Forms.TrackBar();
             this.pwlengthTBARLAB = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.passwordLenghtTBAR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -158,23 +157,11 @@
             this.pwlengthTBARLAB.TabIndex = 10;
             this.pwlengthTBARLAB.Text = "PasswordLength - 1";
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(808, 190);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 412);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pwlengthTBARLAB);
             this.Controls.Add(this.passwordLenghtTBAR);
             this.Controls.Add(this.nicLAB);
@@ -208,7 +195,6 @@
         private System.Windows.Forms.Label nicLAB;
         private System.Windows.Forms.TrackBar passwordLenghtTBAR;
         private System.Windows.Forms.Label pwlengthTBARLAB;
-        private System.Windows.Forms.Button button1;
     }
 }
 
